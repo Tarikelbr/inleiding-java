@@ -6,11 +6,13 @@ import java.awt.*;
 public class Opdracht2_1 extends Applet {
 
     public void init() {
-        setBackground(Color.magenta);
+        setBackground(Color.blue);
     }
 
     public void paint(Graphics g) {
-        g.drawString("Welcome to Java!!", 50, 60 );
         g.setColor(Color.yellow);
+        g.drawString("Tarik", 50, 60 );
+
+
     }
 }
