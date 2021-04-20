@@ -20,9 +20,11 @@ public class Opdracht4_4 extends Applet {
 
 
         g.drawString("Valerie", 100,370);
+        g.drawString("40 KG",100, 380);
         g.drawString("Hans", 150,370);
+        g.drawString("80 KG", 150, 380);
         g.drawString("Jeroen",200, 370);
-
+        g.drawString("100 KG", 200, 380);
 
 
 
