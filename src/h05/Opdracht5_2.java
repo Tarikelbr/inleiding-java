@@ -5,36 +5,29 @@ import java.awt.*;
 
 public class Opdracht5_2 extends Applet {
 
+    int max = 300;
 
+    int gewichtValerie = 40;
+    int gewichtHans = 80;
+    int gewichtJeroen = 100;
 
     public void init() {
 
-
-
     }
-    public static void main(String[] args){
 
-
-        int num = 40;
-
-
-        System.out.println(num);
-        num = num + 40;
-    }
 
 
     public void paint(Graphics g) {
 
-        g.drawRect(100, 150, 50, 210);
-        g.drawRect(150, 60,50,300);
-        g.drawRect(200,50,50,310);
-
+        g.drawRect(100, max - (gewichtValerie * 3), 50, gewichtValerie * 3);
+        g.drawRect(150, max - (gewichtHans * 3),50,gewichtHans * 3);
+        g.drawRect(200, max - (gewichtJeroen * 3),50,gewichtJeroen * 3);
         g.drawString("Valerie", 100,370);
-        g.drawString("40KG",100, 380 );
+        g.drawString("" + gewichtValerie,100, 380 );
         g.drawString("Hans", 150,370);
-        g.drawString("80 KG",150,380 );
+        g.drawString("" +gewichtHans ,150,380 );
         g.drawString("Jeroen",200, 370);
-        g.drawString("100 KG", 200, 380);
+        g.drawString("" +gewichtJeroen, 200, 380);
 
 
 
