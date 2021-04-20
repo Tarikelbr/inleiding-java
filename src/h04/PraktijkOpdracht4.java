@@ -21,7 +21,7 @@ public class PraktijkOpdracht4 extends Applet {
     }
 
     public void paint(Graphics g) {
-        g.drawRect(100, 100, breedte, hoogte);
+        g.drawRect(100, 100, breedte, hoogte );
         g.drawRoundRect(100, 225, breedte, hoogte, 30, 30);
         g.setColor(opvulkleur);
         g.fillRect(315, 100, breedte, hoogte);
